@@ -1,0 +1,13 @@
+<div class="container d-flex flex-column justify-content-center align-items-center">
+  <h1> The Coach answer</h1>
+
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <div class="m-3 border-bottom rounded w-75 text-center">
+      <%= @question %>
+    </div>
+    <div class="m-3 border rounded w-100 text-center">
+      <%= @answer %>
+    </div>
+  </div>
+  <%= link_to "New question", ask_path, class:"btn btn-primary m-3 w-25" %>
+</div>
